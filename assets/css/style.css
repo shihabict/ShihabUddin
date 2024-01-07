@@ -467,6 +467,107 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Education
+--------------------------------------------------------------*/
+.education .icon-box {
+  margin-bottom: 20px;
+}
+
+.education .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+
+.education .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.education .icon-box:hover .icon {
+  background: #fff;
+}
+
+.education .icon-box:hover .icon i {
+  color: #149ddd;
+}
+
+.education .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.education .title a {
+  color: #343a40;
+}
+
+.education .title a:hover {
+  color: #149ddd;
+}
+
+.education .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.education .education-item {
+  padding: 0 0 20px 80px;
+  margin-top: -2px;
+}
+
+.education .education-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.education .education-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.education .education-item ul {
+  padding-left: 20px;
+}
+
+.education .education-item ul li {
+  padding-bottom: 10px;
+}
+
+.education .education-item:last-child {
+  padding-bottom: 0;
+}
+
+.education .education-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
