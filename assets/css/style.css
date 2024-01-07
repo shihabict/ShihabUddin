@@ -558,7 +558,6 @@ section {
 
 .education .education-item::before {
   content: "";
-  position: absolute;
   width: 16px;
   height: 16px;
   border-radius: 50px;
