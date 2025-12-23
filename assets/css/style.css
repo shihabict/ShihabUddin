@@ -379,7 +379,7 @@ section {
 }
 
 .about .content p {
-  text-align: left;
+  text-align: justify;
   line-height: 1.6;
 }
 
